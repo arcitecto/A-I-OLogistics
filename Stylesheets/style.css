@@ -64,7 +64,7 @@ a:active {
 }
 
 .welcome-text:hover {
-  background-color: black;
+  background-color: rgb(180, 91, 91, 0.5);
 }
 
 .sub-main {
@@ -77,7 +77,8 @@ img {
   max-width: 300px;
   height: 250px;
   margin: 140px 10px 10px 10px;
-  border: 1px solid black;
+  border: 5px solid rgb(180, 91, 91, 0.5);
+  border-radius: 50%;
 }
 
 /* First Image */
@@ -92,7 +93,7 @@ img {
 
 .card1 div {
   position: absolute;
-  background: black;
+  background: rgb(180, 91, 91, 0.5);
   color: white;
   opacity: 0;
   visibility: hidden;
@@ -123,7 +124,7 @@ img {
 
 .card2 div {
   position: absolute;
-  background: black;
+  background: rgb(180, 91, 91, 0.5);
   color: white;
   opacity: 0;
   visibility: hidden;
@@ -154,7 +155,7 @@ img {
 
 .card3 div {
   position: absolute;
-  background: black;
+  background: rgb(180, 91, 91, 0.5);
   color: white;
   opacity: 0;
   visibility: hidden;
@@ -171,6 +172,10 @@ img {
   opacity: 0.7;
   transition: 1s;
   margin-left: 10px;
+}
+
+span {
+  color: yellow;
 }
 
 button {

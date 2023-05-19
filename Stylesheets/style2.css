@@ -6,6 +6,7 @@
 }
 
 body {
+  text-align: center;
   background-image: url(../Images/logistics1.jpg);
   background-size: cover;
   background-position: center center;
@@ -15,24 +16,14 @@ body {
   font-weight: bolder;
 }
 
-.page-layout {
-  display: flex;
-  justify-content: space-around;
-}
-
-table {
-  text-align: center;
-  width: 500px;
-  height: 300px;
+.text {
   background-color: rgb(180, 91, 91, 0.5);
 }
 
-table,
-th,
-td {
-  border: 1px solid yellow;
-}
-
-.left-side {
+button {
+  width: 225px;
+  height: 30px;
   background-color: rgb(180, 91, 91, 0.5);
+  color: yellow;
+  cursor: pointer;
 }

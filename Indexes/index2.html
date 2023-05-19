@@ -1,20 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Stylesheets/style1.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Stylesheets/style2.css" />
     <title>Thank You</title>
-</head>
+  </head>
 
-<body>
-    <h1>THANK YOU!!!</h1>
+  <body>
+    <div class="text">
+      <h1>THANK YOU!!!</h1>
 
-    <p>Thank you for your submission!</p>
+      <p>Tell us how we can improve</p>
 
-    <p>We'll be in touch with you shortly!</p>
-</body>
+      <p>Fill out and submit the form below:</p>
 
+      <form action="index2.html">
+        <label for="fname">First Name:</label><br />
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          required
+          placeholder="First Name"
+        /><br /><br />
+        <label for="lname">Last Name:</label><br />
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          required
+          placeholder="Last Name"
+        /><br /><br />
+        <label for="email">Email Address:</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="Email"
+        /><br /><br />
+        <label for="freeform">Describe the nature of your Business:</label
+        ><br />
+        <textarea
+          name="freeform"
+          id="freeform"
+          cols="30"
+          rows="10"
+          placeholder="Enter text here..."
+        ></textarea><br>
+        <button type="submit">Submit</button>
+    </div>
+  </body>
 </html>

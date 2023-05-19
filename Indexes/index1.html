@@ -1,40 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Stylesheets/style1.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Stylesheets/style1.css" />
     <title>A-I-O Contact Page</title>
-</head>
+    <style>
+      #submit {
+        color: yellow;
+        background-color: rgb(180, 91, 91);
+        width: 80px;
+        height: 35px;
+      }
+    </style>
+  </head>
 
-<body>
-    <h1>How can we help?</h1>
+  <body>
+    <div class="page-layout">
+      <div class="left-side">
+        <h1>How can we help?</h1>
 
-    <h2>Tell us how we can serve you</h2>
+        <h2>Tell us how we can serve you</h2>
 
-    <p>Fill out and submit the form below:</p>
+        <p>Fill out and submit the form below:</p>
 
-    <form action="index2.html">
-        <label for="fname">First Name:</label><br>
-        <input type="text" name="fname" id="fname" required placeholder="First Name"><br><br>
-        <label for="lname">Last Name:</label><br>
-        <input type="text" name="fname" id="fname" required placeholder="Last Name"><br><br>
-        <label for="email">Email Address:</label><br>
-        <input type="email" name="email" id="email" required placeholder="Email"><br><br>
-        <label for="freeform">Describe the nature of your Business:</label><br>
-        <textarea name="freeform" id="freeform" cols="30" rows="10" placeholder="Enter text here..."></textarea><br><br>
+        <form action="index2.html">
+          <label for="fname">First Name:</label><br />
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            required
+            placeholder="First Name"
+          /><br /><br />
+          <label for="lname">Last Name:</label><br />
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            required
+            placeholder="Last Name"
+          /><br /><br />
+          <label for="email">Email Address:</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="Email"
+          /><br /><br />
+          <label for="freeform">Describe the nature of your Business:</label
+          ><br />
+          <textarea
+            name="freeform"
+            id="freeform"
+            cols="30"
+            rows="10"
+            placeholder="Enter text here..."
+          ></textarea
+          ><br /><br />
 
-        <label for="service">Choose a Service:</label><br>
-        <select name="service" id="service">
-            <option style="display: none;">-- select a service --</option>
+          <label for="service">Choose a Service:</label><br />
+          <select name="service" id="service">
+            <option style="display: none">-- select a service --</option>
             <option value="International">International</option>
             <option value="Nationwide">Nationwide</option>
             <option value="Local">Local</option>
-            <input type="submit" value="submit" required>
-        </select>
-    </form>
-</body>
-
+            <input type="submit" value="submit" id="submit" required />
+          </select>
+        </form>
+      </div>
+      <div class="right-side">
+        <table>
+          <caption>
+            Prices
+          </caption>
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>International</td>
+              <td>~$4.00 per Kilogram</td>
+            </tr>
+            <tr>
+              <td>Coast-to-Coast</td>
+              <td>~$3.11-$3.17 per mile</td>
+            </tr>
+            <tr>
+              <td>Local</td>
+              <td>~$2.75 per mile + Freight</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
 </html>

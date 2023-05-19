@@ -36,3 +36,11 @@ td {
 .left-side {
   background-color: rgb(180, 91, 91, 0.5);
 }
+
+.service:hover {
+  background-color: blue;
+}
+
+#submit {
+  cursor: pointer;
+}
